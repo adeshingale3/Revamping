@@ -12,39 +12,36 @@ const Hero = () => {
         You have mastered every excuse except the language you wanted to learn.
       </h3>
 
-      <button className="mt-8 h-12 px-6 bg-green-500 text-black font-semibold cursor-pointer rounded-xl shadow-md hover:shadow-lg transition">
+      <button className="mt-8 h-12 px-6 bg-green-500 text-black font-semibold cursor-pointer rounded-xl shadow-md hover:shadow-lg transition hover:scale-105 duration-300">
         Start Your Journey
       </button>
 
-      <p className="mt-4 text-sm cursor-pointer font-semibold">
+      <p className="mt-4 text-sm cursor-pointer font-semibold hover:text-green-400 duration-300">
         Already have an account?
       </p>
-
       <img
         src="/Duolingo.png"
         alt="Duolingo Mascot"
         className="mt-10 w-52 sm:w-64 drop-shadow-xl"
       />
-      <div className='bg-radial from-black/40 from-5% to-white backdrop-blur-xl h-4 w-60 rounded-4xl'></div>
+      <div className='h-20 w-50 bottom-100 left-40 z-4 flex flex-col items-center justify-between absolute rotate-[5deg] gap-2 '>
+        <img src='/india.jpeg' className='hidden sm:block rounded-xl shadow-xl border-4 border-white' />
+        <h3 id='flag' className='font-sm text-semibold'>नमस्ते</h3>
+      </div>
+      <div className='h-20 w-50 bottom-40 left-40 z-4 flex flex-col items-center justify-between absolute rotate-[20deg] gap-2 '>
+        <img src='/italy.jpeg' className='hidden sm:block rounded-xl shadow-xl border-4 border-white' />
+        <h3 id='flag' className='font-sm text-semibold'>Banjour</h3>
+      </div>
 
-        <div className='h-20 w-50 bottom-100 left-40 z-4 flex flex-col items-center justify-between absolute rotate-[5deg] gap-2 '>
-            <img src='/india.jpeg' className='rounded-xl shadow-xl border-4 border-white'/>
-            <h3 id='flag' className='font-sm text-semibold'>नमस्ते</h3>
-        </div>
-        <div className='h-20 w-50 bottom-30 left-40 z-4 flex flex-col items-center justify-between absolute rotate-[20deg] gap-2 '>
-            <img src='/italy.jpeg' className='rounded-xl shadow-xl border-4 border-white'/>
-            <h3 id='flag' className='font-sm text-semibold'>Banjour</h3>
-        </div>
+      <div className='h-20 w-50 bottom-100 right-40 z-4 flex flex-col items-center justify-between absolute rotate-[-5deg] gap-2 '>
+        <img src='/England.jpeg' className='hidden sm:block rounded-xl shadow-xl border-4 border-white' />
+        <h3 id='flag' className='font-sm text-semibold'>Hello</h3>
+      </div>
 
-        <div className='h-20 w-50 bottom-100 right-40 z-4 flex flex-col items-center justify-between absolute rotate-[-5deg] gap-2 '>
-            <img src='/England.jpeg' className='rounded-xl shadow-xl border-4 border-white'/>
-            <h3 id='flag' className='font-sm text-semibold'>Hello</h3>
-        </div>
-
-        <div className='h-20 w-50 bottom-30 right-40 z-4 flex flex-col items-center justify-between absolute rotate-[-30deg] gap-2 '>
-            <img src='/spain.jpeg' className='rounded-xl shadow-xl border-4 border-white'/>
-            <h3 id='flag' className='font-sm text-semibold'>Holla</h3>
-        </div>
+      <div className='h-20 w-50 bottom-40 right-40 z-4 flex flex-col items-center justify-between absolute rotate-[-30deg] gap-2 '>
+        <img src='/spain.jpeg' className='hidden sm:block rounded-xl shadow-xl border-4 border-white' />
+        <h3 id='flag' className='font-sm text-semibold'>Holla</h3>
+      </div>
     </div>
   );
 };

@@ -7,3 +7,6 @@
 #flag {
   font-family: 'Pacifico', cursive;
 }
+.scrollable-element::-webkit-scrollbar {
+  display: none;
+}

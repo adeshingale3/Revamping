@@ -25,26 +25,26 @@ const Hero = () => {
         className="mt-10 w-52 sm:w-64 drop-shadow-xl"
       />
       {/* INDIA */}
-<div className="h-20 w-50 z-40 flex hidden sm:block flex-col items-center justify-between absolute rotate-[5deg] gap-2 left-40 " style={{ bottom: "25rem" }}>
-  <img src="/india.jpeg" className=" rounded-xl shadow-xl border-4 border-white" />
+<div className="h-20 w-50 z-40 flex hidden sm:block flex-col items-center justify-between absolute rotate-[5deg] gap-2 left-60 " style={{ bottom: "25rem" }}>
+  <img src="/india.jpeg" className=" rounded-xl shadow-2xl shadow-orange-500 border-4 border-white" />
   <h3 id='flag' className="text-sm font-semibold sm:left-0">नमस्ते</h3>
 </div>
 
 {/* ITALY */}
-<div className="h-20 w-50 z-40 flex hidden sm:block flex-col items-center justify-between absolute rotate-[20deg] gap-2 left-40 " style={{ bottom: "10rem" }}>
-  <img src="/italy.jpeg" className=" rounded-xl shadow-xl border-4 border-white" />
+<div className="h-20 w-50 z-40 flex hidden sm:block flex-col items-center justify-between absolute rotate-[20deg] gap-2 left-60 " style={{ bottom: "10rem" }}>
+  <img src="/italy.jpeg" className=" rounded-xl shadow-2xl shadow-green-500 border-4 border-white" />
   <h3 id='flag' className="text-sm font-semibold sm:left-0">Banjour</h3>
 </div>
 
 {/* ENGLAND */}
-<div className="h-20 w-50 z-40 flex hidden sm:block flex-col items-center justify-between absolute rotate-[-5deg] gap-2 right-40 " style={{ bottom: "25rem" }}>
-  <img src="/England.jpeg" className=" rounded-xl shadow-xl border-4 border-white" />
+<div className="h-20 w-50 z-40 flex hidden sm:block flex-col items-center justify-between absolute rotate-[-5deg] gap-2 right-60 " style={{ bottom: "25rem" }}>
+  <img src="/England.jpeg" className=" rounded-xl shadow-2xl shadow-red-500 border-4 border-white" />
   <h3 id='flag' className="text-sm font-semibold sm:right-0">Hello</h3>
 </div>
 
 {/* SPAIN */}
-<div className="h-20 w-50 z-40 flex hidden sm:block flex-col items-center justify-between absolute rotate-[-30deg] gap-2 right-40 " style={{ bottom: "10rem" }}>
-  <img src="/spain.jpeg" className=" rounded-xl shadow-xl border-4 border-white" />
+<div className="h-20 w-50 z-40 flex hidden sm:block flex-col items-center justify-between absolute rotate-[-30deg] gap-2 right-60 " style={{ bottom: "10rem" }}>
+  <img src="/spain.jpeg" className=" rounded-xl shadow-2xl shadow-yellow-500 border-4 border-white" />
   <h3 id='flag' className="text-sm font-semibold sm:right-0">Holla</h3>
 </div>
 

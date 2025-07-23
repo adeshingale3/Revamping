@@ -3,7 +3,7 @@ import React from 'react';
 const Hero = () => {
   return (
     <div className="bg-[#EFEFEF] min-h-screen w-full flex flex-col items-center justify-center relative px-4 text-center">
-      <h1 className="font-semibold text-black text-4xl sm:text-5xl md:text-6xl leading-tight">
+      <h1 className="font-bold text-black text-4xl sm:text-5xl md:text-6xl leading-tight">
         Duolingo, Because <br />
         <span className="text-red-500">'small talk'</span> shouldn't be scary.
       </h1>
@@ -24,24 +24,30 @@ const Hero = () => {
         alt="Duolingo Mascot"
         className="mt-10 w-52 sm:w-64 drop-shadow-xl"
       />
-      <div className='h-20 w-50 bottom-100 left-40 z-4 flex flex-col items-center justify-between absolute rotate-[5deg] gap-2 '>
-        <img src='/india.jpeg' className='hidden sm:block rounded-xl shadow-xl border-4 border-white' />
-        <h3 id='flag' className='font-sm text-semibold'>नमस्ते</h3>
-      </div>
-      <div className='h-20 w-50 bottom-40 left-40 z-4 flex flex-col items-center justify-between absolute rotate-[20deg] gap-2 '>
-        <img src='/italy.jpeg' className='hidden sm:block rounded-xl shadow-xl border-4 border-white' />
-        <h3 id='flag' className='font-sm text-semibold'>Banjour</h3>
-      </div>
+      {/* INDIA */}
+<div className="h-20 w-50 z-40 flex flex-col items-center justify-between absolute rotate-[5deg] gap-2 left-10 sm:left-40" style={{ bottom: "25rem" }}>
+  <img src="/india.jpeg" className="hidden sm:block rounded-xl shadow-xl border-4 border-white" />
+  <h3 id='flag' className="text-sm font-semibold">नमस्ते</h3>
+</div>
 
-      <div className='h-20 w-50 bottom-100 right-40 z-4 flex flex-col items-center justify-between absolute rotate-[-5deg] gap-2 '>
-        <img src='/England.jpeg' className='hidden sm:block rounded-xl shadow-xl border-4 border-white' />
-        <h3 id='flag' className='font-sm text-semibold'>Hello</h3>
-      </div>
+{/* ITALY */}
+<div className="h-20 w-50 z-40 flex flex-col items-center justify-between absolute rotate-[20deg] gap-2 left-10 sm:left-40" style={{ bottom: "10rem" }}>
+  <img src="/italy.jpeg" className="hidden sm:block rounded-xl shadow-xl border-4 border-white" />
+  <h3 id='flag' className="text-sm font-semibold">Banjour</h3>
+</div>
 
-      <div className='h-20 w-50 bottom-40 right-40 z-4 flex flex-col items-center justify-between absolute rotate-[-30deg] gap-2 '>
-        <img src='/spain.jpeg' className='hidden sm:block rounded-xl shadow-xl border-4 border-white' />
-        <h3 id='flag' className='font-sm text-semibold'>Holla</h3>
-      </div>
+{/* ENGLAND */}
+<div className="h-20 w-50 z-40 flex flex-col items-center justify-between absolute rotate-[-5deg] gap-2 right-10 sm:right-40" style={{ bottom: "25rem" }}>
+  <img src="/England.jpeg" className="hidden sm:block rounded-xl shadow-xl border-4 border-white" />
+  <h3 id='flag' className="text-sm font-semibold">Hello</h3>
+</div>
+
+{/* SPAIN */}
+<div className="h-20 w-50 z-40 flex flex-col items-center justify-between absolute rotate-[-30deg] gap-2 right-10 sm:right-40" style={{ bottom: "10rem" }}>
+  <img src="/spain.jpeg" className="hidden sm:block rounded-xl shadow-xl border-4 border-white" />
+  <h3 id='flag' className="text-sm font-semibold">Holla</h3>
+</div>
+
     </div>
   );
 };

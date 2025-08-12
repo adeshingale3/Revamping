@@ -1,5 +1,4 @@
 import React from 'react';
-import { MaskedBG } from 'wavyjs';
 
 const Hero = () => {
   return (
